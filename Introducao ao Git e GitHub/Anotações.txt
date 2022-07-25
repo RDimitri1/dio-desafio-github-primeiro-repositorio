@@ -1,0 +1,54 @@
+## Conceitos:book:
+
+- O Git é um sistema de versionamento de código distribuído.
+
+-  Uso de CLI - Comand Line Interface
+- SHA1 - Secure Hash Algorithm - 40 caracteres únicos
+- UNTRACKED, TRACKED (UNMODIFIED, MODIFIED, STAGED)
+
+
+
+### Comandos CLI:keyboard:
+
+- *dir*                -LISTA CONTEUDO DA PASTA EM QUE SE ENCONTRA
+- *cd   a*            -ABRE O DIRETÓRIO a
+- *cd..*                -RETORNA PARA A PASTA SUPERIOR
+- *cls*                  -LIMPA A TELA
+- *mkdir  A*         -CRIA DIRETÓRIO A
+- *echo  txt*        -PRINTA txt 
+  - *echo (txt) > A.txt*     -CRIA DOC DE TEXTO "A" COM txt COMO CONTEÚDO
+- *del a*           -  DELETA CONTEUDO DO DIRETÓRIO a
+- *rmdir a*       -DELETA O DIRETÓRIO a E SEU CONTEÚDO
+
+
+
+*Atalhos: Tecla **TAB** serve para auto-completar 
+
+
+
+## Comandos Git:keyboard::cat:
+
+- *git config --global user.name* (ou user.email) - PARA CONFIGURAR EMAIL E USER NO GIT
+  - *git config --global unset user.name* (ou user.email) - PARA DESCONFIGURAR
+    - É INTERESSANTE SER O MESMO USER NAME E EMAIL NO GIT E GITHUB
+
+- *git init*             -INICIA REPOSITÓRIO NO GIT
+
+- _git add * (ou .) (ou nomeArquivo)_   - ADD ARQUIVOS E INICIA O VERSIONAMENTO, STAGED
+- *git restore*                   -RESTAURA TIRANDO DE STAGED
+
+- git commit -m "txt"  - CRIA COMMIT, MOVENDO DE STAGED PARA UNMODIFIED
+
+- _git clone **link**_  - CLONA REPOSITÓRIO DO GITHUB PARA REPOSITÓRIO LOCAL
+- *git status*         - MOSTRA O STATUS DOS ARQUIVOS, PARA SABER QUAL O PRÓXIMO PASSO
+- *git push origin main*   -EMPURRA ARQUIVOS AO GITHUB
+- *git pull origin main*   -PUXA ARQUIVO DO GITHUB, PARA COMPARAR COM O ARQUIVO LOCAL
+
+- *ls*                     - LISTA ARQUIVOS
+
+- *ls -a*                - LISTA ARQUIVOS + OCULTOS
+- *mv  file/repository/*   - MOVE FILE PARA REPOSITORY
+
+
+
+*Atalhos: Tecla **CTRL+L** serve para limpar a tela, substituindo cls (em CLI)
